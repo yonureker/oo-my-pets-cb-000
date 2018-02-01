@@ -48,7 +48,7 @@ attr_reader :species
     end
     pets[:cats].each do |cat|
       cat.mood = "nervous"
-    end 
+    end
     pets[:fishes].each do |fish|
       fish.mood = "nervous"
     end
