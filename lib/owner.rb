@@ -52,8 +52,6 @@ attr_reader :species
     pets[:fishes] = []
     pets[:dogs] = []
     pets[:cats] = []
-    
-    #each key value.mood = "nervous"
   end
 
   def walk_dogs
