@@ -84,7 +84,7 @@ attr_reader :species
       #   dog_p = "dogs"
       # else dog_p = "dog"
       # end
-      # 
+      #
       # if cat_count > 1
       #   cat_p = "cats"
       # else cat_p = "cat"
