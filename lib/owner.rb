@@ -75,4 +75,22 @@ attr_reader :species
       end
     end
 
+    def list_pets
+      fish_count = self.pets[:fishes].count
+      dog_count = self.pets[:dogs].count
+      cat_count = self.pets[:cats].count
+
+      if dog_count > 0
+        dog_p = "dogs"
+      else dog_p = "dog"
+      end
+
+      if cat_count > 0 
+        cat_p = "cats"
+      else cat_p = "cat"
+      end
+
+      "I have #{fish_count} fish, #{dog_count} #{dog_p}, and #{cat_count} #{cat_p}"
+    end
+
 end
